@@ -1,0 +1,20 @@
+Best parameters found: {'weight_decay': 0, 'lr': 0.0001, 'hidden_dims': (128, 64, 32), 'dropout_rate': 0.4}
+Test accuracy: 0.914577530176416
+Balanced Accuracy: 0.8730270065151517
+Matthews Correlation Coefficient: 0.7751521215805238
+Brier Score Loss: 0.08542246982358404
+ROC AUC: 0.8730270065151516
+F1 Score: 0.8296296296296296
+Precision: 0.8801571709233792
+Recall: 0.7845884413309983
+Confusion Matrix:
+ [[1522   61]
+ [ 123  448]]
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.96      0.94      1583
+         1.0       0.88      0.78      0.83       571
+
+    accuracy                           0.91      2154
+   macro avg       0.90      0.87      0.89      2154
+weighted avg       0.91      0.91      0.91      2154
