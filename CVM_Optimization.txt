@@ -1,0 +1,43 @@
+Best parameters: {'C': 100, 'degree': 2, 'gamma': 'scale', 'kernel': 'rbf'}
+Best score: 0.9082030601423766
+Validation Set Evaluation:
+Balanced Accuracy: 0.8589299776963957
+Accuracy: 0.8969359331476323
+Matthews Correlation Coefficient: 0.7322323274746249
+Brier Score Loss: 0.07626039639766588
+ROC AUC: 0.9460924635845472
+F1 Score: 0.8010752688172043
+Precision: 0.8262476894639557
+Recall: 0.7773913043478261
+Confusion Matrix:
+ [[1485   94]
+ [ 128  447]]
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93      1579
+           1       0.83      0.78      0.80       575
+
+    accuracy                           0.90      2154
+   macro avg       0.87      0.86      0.87      2154
+weighted avg       0.90      0.90      0.90      2154
+
+Test Set Evaluation:
+Balanced Accuracy: 0.8750504761072384
+Accuracy: 0.9117920148560817
+Matthews Correlation Coefficient: 0.769172430956618
+Brier Score Loss: 0.06697368650229267
+ROC AUC: 0.9587794130499959
+F1 Score: 0.8272727272727273
+Precision: 0.8601134215500945
+Recall: 0.7968476357267951
+Confusion Matrix:
+ [[1509   74]
+ [ 116  455]]
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94      1583
+           1       0.86      0.80      0.83       571
+
+    accuracy                           0.91      2154
+   macro avg       0.89      0.88      0.88      2154
+weighted avg       0.91      0.91      0.91      2154
