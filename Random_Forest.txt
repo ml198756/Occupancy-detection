@@ -1,0 +1,26 @@
+Best parameters found:  {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+Test Set Evaluation:
+Balanced Accuracy: 0.9208376108873622
+Accuracy: 0.952
+Matthews Correlation Coefficient: 0.9033733959776171
+Log Loss: 0.27467580710466916
+ROC AUC: 0.9888133697985301
+F1 Score: 0.9518897058823529
+Precision: 0.9518657639093318
+Recall: 0.952
+Confusion Matrix:
+ [[329   5   1]
+ [  5  69   7]
+ [  1   5  78]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       335
+           1       0.87      0.85      0.86        81
+           2       0.91      0.93      0.92        84
+
+    accuracy                           0.95       500
+   macro avg       0.92      0.92      0.92       500
+weighted avg       0.95      0.95      0.95       500
+
+
+Process finished with exit code 0

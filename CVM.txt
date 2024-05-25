@@ -1,0 +1,46 @@
+Best parameters found:  {'svm__C': 1, 'svm__degree': 2, 'svm__gamma': 'scale', 'svm__kernel': 'linear'}
+Validation Set Evaluation:
+Balanced Accuracy: 0.9055508972970454
+Accuracy: 0.94
+Matthews Correlation Coefficient: 0.8818062224339388
+Log Loss: 0.19056227095487327
+ROC AUC: 0.987367296160973
+F1 Score: 0.9397741615497324
+Precision: 0.9396022172949003
+Recall: 0.94
+Confusion Matrix:
+ [[321   7   1]
+ [  8  69   7]
+ [  1   6  80]]
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       329
+           1       0.84      0.82      0.83        84
+           2       0.91      0.92      0.91        87
+
+    accuracy                           0.94       500
+   macro avg       0.91      0.91      0.91       500
+weighted avg       0.94      0.94      0.94       500
+
+Test Set Evaluation:
+Balanced Accuracy: 0.8547219809243026
+Accuracy: 0.912
+Matthews Correlation Coefficient: 0.8235122304020563
+Log Loss: 0.2360476034596105
+ROC AUC: 0.9754998246469156
+F1 Score: 0.9114800468156175
+Precision: 0.9120435275160608
+Recall: 0.912
+Confusion Matrix:
+ [[324   9   2]
+ [  7  58  16]
+ [  3   7  74]]
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       335
+           1       0.78      0.72      0.75        81
+           2       0.80      0.88      0.84        84
+
+    accuracy                           0.91       500
+   macro avg       0.85      0.85      0.85       500
+weighted avg       0.91      0.91      0.91       500

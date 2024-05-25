@@ -1,0 +1,25 @@
+Best parameters found:  ((128, 64, 32), 0.4, 0.0005, 0.001)
+Test Set Evaluation:
+Balanced Accuracy: 0.8615164916159941
+Accuracy: 0.914
+Matthews Correlation Coefficient: 0.8295591629142369
+Log Loss: 0.6271917013413584
+ROC AUC: 0.9793514777973699
+F1 Score: 0.9137168713639303
+Precision: 0.9160378787878788
+Recall: 0.914
+Confusion Matrix:
+ [[323   8   4]
+ [  7  57  17]
+ [  0   7  77]]
+D:\Python3.11.5\Lib\site-packages\sklearn\metrics\_classification.py:2981: UserWarning: The y_pred values do not sum to one. Starting from 1.5 thiswill result in an error.
+  warnings.warn(
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       335
+           1       0.79      0.70      0.75        81
+           2       0.79      0.92      0.85        84
+
+    accuracy                           0.91       500
+   macro avg       0.85      0.86      0.85       500
+weighted avg       0.92      0.91      0.91       500
